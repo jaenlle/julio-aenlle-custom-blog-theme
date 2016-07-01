@@ -10,6 +10,7 @@ Text Domain: julio_aenlle_WIE_template
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
 
 html, body {
   background-color: white;
