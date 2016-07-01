@@ -136,3 +136,48 @@ header img {
     color: #cccccc;
     border-bottom: 2px solid orange;
 }
+
+/*------------------------------------------------------ Footer Elements ---*/
+
+footer {
+    border-top: 2px solid orange;
+    padding-top: 60px;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-align: center;
+    font-size: .8rem;
+}
+
+footer ul {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+footer a {
+    margin: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: orange;
+}
+
+footer a:hover {
+    color: #cccccc;
+    padding-bottom: 2px;
+    border-bottom: 2px solid orange;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-align: center;
+    font-size: .8rem;
+}
