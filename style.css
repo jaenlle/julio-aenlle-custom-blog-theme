@@ -56,30 +56,63 @@ a {
   color: #777;
 }
 
-header, footer {
-  background-color: #222;
-  padding-bottom: 40px;
+/*------------------------------------------------------ Header Elements ---*/
+
+header h1, header p{
+    color: #777;
+    letter-spacing: .6px;
 }
 
-header {
-  border-bottom: 3px solid red;
+header h1 {
+    font-size: 1.5rem;
 }
 
-footer {
-  border-top: 3px solid red;
-  padding-top: 40px;
+header h2 {
+    font-size: 1.2rem;
 }
 
-header h3, header h5 {
-  color: white;
+header p {
+    margin-top: 0;
 }
 
-/*--- Menu --- */
+header img {
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------ Banner Elements ---*/
+
+.bannerimage {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bannerh1 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.bannerh2 {
+
+}
+
+.bannerp {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/*------------------------------------------------------ Menu --- */
 
 .blank-menu-header {
-    text-align: right;
-    margin-top: 40px;
-    background-color: #999;
+    text-align: center;
+    margin-top: 0px 40px;
+    margin-bottom: 60px;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -92,12 +125,13 @@ header h3, header h5 {
 }
 .blank-menu-header ul li a {
     text-decoration:none;
-    margin: 4px;
-    padding: 5px 0px 5px 40px;
-    font-weight: 300;
-    font-size: 1.1rem;
-    color: pink;
+    margin: 40px;
+    padding-bottom: 2px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: orange;
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+    border-bottom: 2px solid orange;
 }
