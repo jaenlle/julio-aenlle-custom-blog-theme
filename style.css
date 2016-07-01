@@ -208,3 +208,27 @@ footer a:hover {
 #social img {
     width: 30px;
 }
+
+/*------------------------------------------------------ 404 Page ---*/
+
+.404 h1 {
+    color: orange;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.404 p {
+    line-height: 2rem;
+    text-align: justify;
+
+}
+
+.sadpanda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchcenter {
+    text-align: center;
+}
