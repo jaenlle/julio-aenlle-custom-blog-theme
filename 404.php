@@ -4,17 +4,13 @@
 get_header(); ?>
 
     <div class="row">
-        <div class="eight columns">
-            <h1>Page Not Found</h1>
-            <h2>The page you're looking for ran away because we tried to make it eat vegetables!</h2>
-            <h3>Use a Search party to find it! </h3>
-
-            <?php get_search_form(); ?>
+        <div class="nine columns" class="404">
+            <h1>404</h1>
+            <img class="sadpanda" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
+            <p>The page you're looking does't exist. Please use your back button, the menu, or the search feature to navigate away from this page.</p>
         </div>
-        <div class="four colums">
-            <?php get_sidebar(); ?>
-        </div>
-
     </div>
+
+    
 
 <?php get_footer(); ?>
