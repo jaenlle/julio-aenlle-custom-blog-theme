@@ -1,0 +1,101 @@
+/*
+Theme Name: Julio Aenlle Custom Blog Theme
+Theme URI:
+Author: Julio Aenlle
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: julio_aenlle_WIE_template
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+html, body {
+  background-color: white;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #777;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.0rem;
+}
+
+h6 {
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+header, footer {
+  background-color: #222;
+  padding-bottom: 40px;
+}
+
+header {
+  border-bottom: 3px solid red;
+}
+
+footer {
+  border-top: 3px solid red;
+  padding-top: 40px;
+}
+
+header h3, header h5 {
+  color: white;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    text-align: right;
+    margin-top: 40px;
+    background-color: #999;
+}
+.blank-menu-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 0px 5px 40px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: pink;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
