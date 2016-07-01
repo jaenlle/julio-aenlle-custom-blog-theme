@@ -181,3 +181,29 @@ footer a:hover {
     text-align: center;
     font-size: .8rem;
 }
+
+/*------------------------------------------------------ Social Div ---*/
+
+#social {
+    margin-bottom: 35px;
+}
+
+
+#social ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+#social li {
+    display: inline;
+}
+
+#social ul li a {
+    margin: 5px;
+}
+
+#social img {
+    width: 30px;
+}
