@@ -21,8 +21,18 @@
         </div>
         <!-- End Loop -->
 
-
-
+        <!-- ADDING SIDEBAR -->
+        <div class="three columns">
+            <div id="social">
+                <ul>
+                    <li><a href="#"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/github.png" alt="" /></a></li>
+                    <li><a href="#"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/codepen.png" alt="" /></a></li>
+                    <li><a href="#"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/linkedin.png" alt="" /></a></li>
+                    <li><a href="#"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/twitter.png" alt="" /></a></li>
+                </ul>
+            </div>
+            <?php get_sidebar(); ?>
+        </div>
     </section> <!-- End Body Content Section -->
 
 <?php get_footer(); ?> <!-- Gets information from footer.php to display on page -->
