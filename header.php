@@ -11,16 +11,12 @@
 
     <div class="container">
         <header class="row">
-
-          <div class="nine columns">
-              <h3><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo ('name'); ?></a></h3>
-              <h5><?php bloginfo ('description'); ?></h5>
-          </div>
-
-      <!-- Search Form -->
-          <div class="three columns">
-            <?php get_search_form(); ?>
-          </div>
+            <div class="twelve columns">
+                <a href="/jaenllewordpress" target="_self"><img class="bannerimage" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/logo.png" height="100px" /></a>
+                <h1 class="bannerh1">JULIO AENLLE <span style="color: orange">CREATIVE</span></h1>
+                <!--<h3><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo ('name'); ?></a></h3>-->
+                <p class="bannerp"><?php bloginfo ('description'); ?></p>
+            </div>
         </header>
 
           <div class="row"> <!-- this div houses the menu -->
