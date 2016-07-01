@@ -3,7 +3,9 @@
     <!-- Begin Body Content Section -->
     <section class="row">
         <div class="nine columns">
+
             <!-- Begin Loop -->
+
             <?php
                 if ( have_posts() ){
                     while ( have_posts() ){
