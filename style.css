@@ -243,7 +243,7 @@ footer a:hover {
     width: 38px;
 }
 
-/*------------------------------------------------------ 404 Page ---*/
+/*------------------------------------------------------ 404 Page ---
 
 .404 h1 {
     color: orange;
@@ -265,7 +265,7 @@ footer a:hover {
 
 .searchcenter {
     text-align: center;
-}
+}*/
 
 /*------------------------------------------------------ Portfolio Page ---*/
 
@@ -347,5 +347,12 @@ footer a:hover {
 /*------------------------------------------------------ Hide Search Box Label ---*/
 
 .screen-reader-text {
+    visibility: hidden;
+}
+
+/*------------------------------------------------------ Blank Div For Separation---*/
+
+#blank {
+    background-color: transparent;
     visibility: hidden;
 }
