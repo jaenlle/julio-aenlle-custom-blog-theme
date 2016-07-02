@@ -185,6 +185,12 @@ footer a {
     margin-bottom: 30px;
 }
 
+/*@media all and (min-width:400px) {
+    footer ul {
+        display: block;
+    }
+}*/
+
 .copyright {
     font-family: 'Montserrat', sans-serif;
     color: orange;
@@ -196,6 +202,7 @@ footer a {
 /*------------------------------------------------------ Social Div ---*/
 
 #social {
+    margin-top: 8px;
     margin-bottom: 35px;
 }
 
@@ -257,7 +264,6 @@ footer a {
 
 #portfoliopage h3 {
     color: orange;
-    margin-top: 20px;
     margin-bottom: 5px;
 }
 
