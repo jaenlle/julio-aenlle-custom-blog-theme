@@ -256,7 +256,7 @@ footer a {
     margin-bottom: 20px;
 }
 
-#portfoliopage h2, #portfoliopage h3 {
+#portfoliopage h2, #portfoliopage h3, #contactpage h2, #contactpage h3 {
     color: orange;
     font-weight: 400;
     letter-spacing: 1px;
@@ -270,5 +270,28 @@ footer a {
 #portfoliopage p {
     line-height: 1.5rem;
     text-align: justify;
+    letter-spacing: .2px;
+}
+
+/*------------------------------------------------------ Contact Page ---*/
+
+#contactpage h2 {
+    margin-bottom: 15px;
+}
+
+#contactpage h3 {
+    color: orange;
+    margin-bottom: 5px;
+}
+
+#contactpage p {
+    line-height: 1.5rem;
+    text-align: justify;
+    letter-spacing: .2px;
+    margin-bottom: 10px;
+}
+
+#contactpage a {
+    color: orange;
     letter-spacing: .2px;
 }

@@ -15,6 +15,9 @@ Template Name: Contact Form Page
                             the_post(); // the_post defines our Data CONTEXT ?>
 
                             <h2><?php the_title(); ?></h2>
+                            <p>You can reach me by phone at: <span style="color:orange;letter-spacing:1.5px;">305.903.9810</span></p>
+                            <p>or by Email at: <a href="mailto:julioaenlle@gmail.com">JULIOAENLLE@GMAIL.COM</a></p>
+                            <p>or feel free to fill out the form below:</p>
                             <?php the_content();
 
                         } //end while statment
@@ -22,7 +25,7 @@ Template Name: Contact Form Page
                   <!-- END LOOP -->
                 </div>
             </div>
-        
+
         <!-- ADDING SIDEBAR -->
             <div class="three columns">
                 <div id="social">
