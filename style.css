@@ -58,6 +58,7 @@ label {
 p {
     line-height: 2rem;
     text-align: justify;
+    font-weight: 300;
 }
 
 /*------------------------------------------------------ Header Elements ---*/
@@ -270,7 +271,6 @@ footer a {
 #portfoliopage p {
     line-height: 1.5rem;
     text-align: justify;
-    letter-spacing: .2px;
 }
 
 /*------------------------------------------------------ Contact Page ---*/
@@ -294,4 +294,36 @@ footer a {
 #contactpage a {
     color: orange;
     letter-spacing: .2px;
+}
+
+/* contact page field labels */
+.frm_style_formidable-style.with_frm_style label.frm_primary_label, .frm_style_formidable-style.with_frm_style div.frm_description {
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: orange;
+}
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label {
+    font-size: .9rem;
+}
+
+/* contact form submit */
+.frm_style_formidable-style.with_frm_style input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: orange;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+.frm_style_formidable-style.with_frm_style input[type=submit]:hover, .frm_style_formidable-style.with_frm_style input[type=submit]:focus {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
 }
