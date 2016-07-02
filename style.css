@@ -28,6 +28,10 @@ html, body {
     background: orange;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 h1, h2, h3, p, a {
     color: #888;
 }
@@ -211,7 +215,7 @@ footer a:hover {
 
 #social {
     margin-top: 8px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 
@@ -338,4 +342,10 @@ footer a:hover {
     background-color: orange;
     color: white;
     border: 1px solid orange;
+}
+
+/*------------------------------------------------------ Hide Search Box Label ---*/
+
+.screen-reader-text {
+    visibility: hidden;
 }
