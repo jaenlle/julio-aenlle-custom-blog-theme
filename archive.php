@@ -14,7 +14,7 @@
                  <!-- data context -->
                     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                     <?php the_excerpt(); ?>
-                    <p><a href="<?php the_permalink(); ?>">Read More</a></p>
+                    <p class="readmore"><a href="<?php the_permalink(); ?>">Read More</a></p>
                 <?php endwhile; ?> <!-- End Loop -->
                 <?php else: ?>
                     <p>Sorry, no posts matched your criteria.</p>

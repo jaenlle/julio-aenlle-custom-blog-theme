@@ -16,7 +16,7 @@
                                 the_post_thumbnail('thumbnail');
                             }
                             the_excerpt(); //this pulls a paragraph of content from each post ?>
-                        <p><a href="<?php the_permalink(); ?>">Read More</a></p>
+                        <p class="readmore"><a href="<?php the_permalink(); ?>">Read More</a></p>
                     <?php } //end while statement
                 } //end if statement
               ?>

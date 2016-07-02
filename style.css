@@ -60,9 +60,10 @@ label {
 }
 
 p {
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: justify;
     font-weight: 300;
+    margin-bottom: 25px;
 }
 
 /*------------------------------------------------------ Header Elements ---*/
@@ -115,7 +116,7 @@ header img {
     padding-right: 10%;
 }
 
-/*------------------------------------------------------ Menu --- */
+/*------------------------------------------------------ Menu & Read More --- */
 
 .blank-menu-header {
     text-align: center;
@@ -131,15 +132,19 @@ header img {
 .blank-menu-header li {
     display: inline;
 }
-.blank-menu-header ul li a {
-    text-decoration:none;
+
+.blank-menu-header ul li a, .blank-menu-header ul li a:hover {
     margin: 40px;
+}
+
+.blank-menu-header ul li a, .readmore a {
+    text-decoration:none;
     padding-bottom: 2px;
     font-weight: 400;
     font-size: 1.125rem;
     color: orange;
 }
-.blank-menu-header ul li a:hover {
+.blank-menu-header ul li a:hover, .readmore a:hover {
     color: #cccccc;
     border-bottom: 2px solid orange;
 }
