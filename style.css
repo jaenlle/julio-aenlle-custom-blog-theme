@@ -234,3 +234,27 @@ footer a:hover {
 .searchcenter {
     text-align: center;
 }
+
+/*------------------------------------------------------ 404 Page ---*/
+
+#portfoliopage {
+    margin-bottom: 20px;
+}
+
+#portfoliopage h2, #portfoliopage h3 {
+    color: orange;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#portfoliopage h3 {
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#portfoliopage p {
+    line-height: 1.5rem;
+    text-align: justify;
+    letter-spacing: .2px;
+}
