@@ -144,6 +144,19 @@ header img {
     border-bottom: 2px solid orange;
 }
 
+/*------------------------------------------------------ Image Container --- */
+
+.imgcontainer img {
+    max-height: 200px;
+    margin-bottom: 25px;
+}
+
+
+/*.ninecolumns img {
+    max-height: 200px;
+    margin-bottom: 25px;
+}*/
+
 /*------------------------------------------------------ Footer Elements ---*/
 
 footer {

@@ -11,11 +11,14 @@
                     while ( have_posts() ){
                         the_post(); ?>
                             <h1><a href="<?php the_permalink(); ?>"><?php the_title(); //this php calls up each post title ?></a></h1>
-                            <?php
-                            if ( has_post_thumbnail() ) {
-                                the_post_thumbnail('thumbnail');
-                            }
-                            the_excerpt(); //this pulls a paragraph of content from each post ?>
+                            <div class="imgcontainer">
+                                <?php
+                                if ( has_post_thumbnail() ) {
+                                    $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),’thumbnail’ );
+                                    echo '<img width="100%" src="' . $image_src[0] . '">';
+                                } ?>
+                            </div>
+                            <?php the_excerpt(); //this pulls a paragraph of content from each post ?>
                         <p><a href="<?php the_permalink(); ?>">Read More</a></p>
                     <?php } //end while statement
                 } //end if statement
