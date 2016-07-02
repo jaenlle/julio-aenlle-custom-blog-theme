@@ -5,8 +5,8 @@
                         <div id="footernav">
                             <ul>
                                 <li>305.903.9810</li>
-                                <li><a href="#">JULIOAENLLE.COM</a></li>
-                                <li><a href="#">EMAIL ME</a></li>
+                                <li><a href="http://www.julioaenlle.com">JULIOAENLLE.COM</a></li>
+                                <li><a href="mailto:julioaenlle@gmail.com">EMAIL ME</a></li>
                             </ul>
                         </div>
 
