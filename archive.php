@@ -23,7 +23,7 @@
 
             <div class="one column" id="blank">blank</div>
 
-            <div class="row">
+            <div class="three columns">
                 <div id="social">
                     <ul>
                         <li><a href="https://github.com/jaenlle" target="_blank"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/github.png" alt="Find Me On GitHub" /></a></li>
