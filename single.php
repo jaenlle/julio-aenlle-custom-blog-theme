@@ -16,6 +16,7 @@
                       <?php the_content();
                   }//END WHILE
                 } //END IF ?>
+                <p style="color:orange;"><?php the_time('F j, Y'); ?>
             <!-- END PAGE PHP -->
         </div>
 
