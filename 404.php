@@ -5,9 +5,9 @@ get_header(); ?>
 
     <section class="row">
         <div class="eight columns">
-            <h1>404</h1>
-            <img class="sadpanda" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
-            <p>The page you're looking does't exist. Please use your back button, the menu, or the search feature to navigate away from this page.</p>
+            <h1 id="error">404</h1>
+            <img id="sadpanda" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
+            <h2 id="errorh2">The page you're looking for does't exist :(</h2>
         </div>
 
         <div class="one column" id="blank">blank</div>
@@ -22,8 +22,8 @@ get_header(); ?>
                     <li><a href="https://www.twitter.com/heyheyitsjulio" target="_blank"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/twitter.png" alt="Follow Me On Twitter" /></a></li>
                 </ul>
             </div>
+            <?php get_sidebar(); ?>
         </div>
-        <?php get_sidebar(); ?>
     </section>
 
 <?php get_footer(); ?>

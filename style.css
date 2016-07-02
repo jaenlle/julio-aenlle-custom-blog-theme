@@ -37,7 +37,9 @@ h1, h2, h3, p, a {
 }
 
 h1 {
-    font-size: 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 1.8rem;
 }
 
 h2 {
@@ -248,29 +250,28 @@ footer a:hover {
     width: 38px;
 }
 
-/*------------------------------------------------------ 404 Page ---
+/*------------------------------------------------------ 404 Page ---*/
 
-.404 h1 {
-    color: orange;
-    font-size: 3rem;
-    letter-spacing: 2px;
+#error {
+    font-size: 10rem;
+    letter-spacing:2.2px;
+    margin-bottom:20px;
+    color:orange;
+    text-align:center;
 }
 
-.404 p {
-    line-height: 2rem;
-    text-align: justify;
-
+#errorh2 {
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 400;
 }
 
-.sadpanda {
+#sadpanda {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-.searchcenter {
-    text-align: center;
-}*/
 
 /*------------------------------------------------------ Portfolio Page ---*/
 
@@ -355,7 +356,7 @@ footer a:hover {
     visibility: hidden;
 }
 
-/*------------------------------------------------------ Blank Div For Separation---*/
+/*------------------------------------------------------ Blank Div For Separation ---*/
 
 #blank {
     background-color: transparent;
