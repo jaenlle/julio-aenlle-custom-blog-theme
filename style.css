@@ -144,6 +144,7 @@ header img {
 footer {
     border-top: 2px solid orange;
     padding-top: 60px;
+    margin-top: 30px;
 }
 
 footer p {
@@ -160,21 +161,28 @@ footer ul {
 }
 
 footer li {
+    color: orange;
     list-style: none;
     display: inline;
+    letter-spacing: 1.2px;
+    margin: 32px;
 }
 
 footer a {
-    margin: 40px;
+
     font-weight: 400;
     text-decoration: none;
     color: orange;
 }
 
-footer a:hover {
+/*footer a:hover {
     color: #cccccc;
     padding-bottom: 2px;
     border-bottom: 2px solid orange;
+}*/
+
+#footernav {
+    margin-bottom: 30px;
 }
 
 .copyright {
@@ -235,7 +243,7 @@ footer a:hover {
     text-align: center;
 }
 
-/*------------------------------------------------------ 404 Page ---*/
+/*------------------------------------------------------ Portfolio Page ---*/
 
 #portfoliopage {
     margin-bottom: 20px;

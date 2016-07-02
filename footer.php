@@ -2,15 +2,23 @@
             <div class="twelve columns">
                 <div class="row"> <!-- this div houses the menu -->
                     <div class="twelve columns">
-                        <?php wp_nav_menu( array(
+                        <div id="footernav">
+                            <ul>
+                                <li>305.903.9810</li>
+                                <li><a href="#">JULIOAENLLE.COM</a></li>
+                                <li><a href="#">EMAIL ME</a></li>
+                            </ul>
+                        </div>
+
+                        <!--<?php wp_nav_menu( array(
                                 'sort_column'     =>  'menu_order',
                                 'container_class' =>  'blank-menu-header'
-                            )); ?>
+                            )); ?>-->
                     </div>
                 </div>
 
                 <p class="copyright">
-                    &copy; Julio Aenlle. All Rights Reserved.
+                    &copy; Julio Aenlle. Rights Reserved.
                 </p>
             </div>
       </footer>
