@@ -170,11 +170,18 @@ footer li {
 }
 
 footer a {
-
     font-weight: 400;
     text-decoration: none;
     color: orange;
+    padding-bottom: 2px;
 }
+
+footer a:hover {
+    color: #ccc;
+    border-bottom: 2px solid orange;
+}
+
+
 
 /*footer a:hover {
     color: #cccccc;
@@ -219,13 +226,17 @@ footer a {
     display: inline;
 }
 
-#social ul li a {
+#social li a {
     margin: 5px;
     padding-bottom: 2px;
 }
 
-#social a:hover {
+#social li a:hover {
     border-bottom: 2px solid #ccc;
+}
+
+#social img {
+    width: 38px;
 }
 
 /*------------------------------------------------------ 404 Page ---*/
@@ -312,7 +323,7 @@ footer a {
 /* contact form submit */
 .frm_style_formidable-style.with_frm_style input[type=submit] {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 11px;
     color: orange;
     border-radius: 4px;
