@@ -32,14 +32,21 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, ul, li {
     color: #888;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1.8px;
+}
+
+h1 {
+    letter-spacing: 1.5px;
     font-size: 1.8rem;
+}
+
+h2, h3 {
+    letter-spacing: 1.2px;
 }
 
 h2 {
@@ -361,4 +368,14 @@ footer a:hover {
 #blank {
     background-color: transparent;
     visibility: hidden;
+}
+
+/*------------------------------------------------------ Widget Mod ---*/
+
+.widget-footer widget-left {
+    margin: 20px 0px;
+}
+
+.cat-item cat-item-1 {
+    mar
 }

@@ -7,7 +7,7 @@
         <section class="row">
             <div class="eight columns">
                 <?php if ( have_posts() ): ?>
-                    <h2>Archive</h2>
+                    <h1>ARCHIVE</h1>
                 <?php
                 //The Loop
                 while ( have_posts() ): the_post(); ?>
@@ -32,11 +32,11 @@
                         <li><a href="https://www.twitter.com/heyheyitsjulio" target="_blank"><img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/07/twitter.png" alt="Follow Me On Twitter" /></a></li>
                     </ul>
                 </div>
-                    <h2>Archives by Month:</h2>
+                    <h3>By Month:</h3>
                         <ul>
-                            <?php wp_get_archives( 'type=weekly'); ?>
+                            <?php wp_get_archives( 'type=monthly'); ?>
                         </ul>
-                    <h2>Archives by Category:</h2>
+                    <h3>By Category:</h3>
                         <ul>
                             <?php wp_list_categories(); ?>
                         </ul>
