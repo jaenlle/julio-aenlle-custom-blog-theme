@@ -221,10 +221,11 @@ footer a {
 
 #social ul li a {
     margin: 5px;
+    padding-bottom: 2px;
 }
 
-#social img {
-    width: 30px;
+#social a:hover {
+    border-bottom: 2px solid #ccc;
 }
 
 /*------------------------------------------------------ 404 Page ---*/
