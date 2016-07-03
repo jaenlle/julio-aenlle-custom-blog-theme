@@ -9,8 +9,11 @@
                       the_post(); // the_post defines our Data CONTEXT
 
                       if ( has_post_thumbnail() ){ ?>
-                          <h1 class="idv"><?php the_title(); ?></h2>
-                          <div class="post-thumbnail"><?php the_post_thumbnail('large'); ?></div>
+                            <h1 class="idv"><?php the_title(); ?></h2>
+                            <div class="post-thumbnail">
+                              <?php $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),’thumbnail’ );
+                                echo '<img width="100%" src="' . $image_src[0] . '">'; ?><!--ideal image width is 627; scale accordingly-->
+                            </div>
                       <?php } ?>
 
                       <?php the_content();

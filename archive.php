@@ -13,6 +13,11 @@
                 while ( have_posts() ): the_post(); ?>
                  <!-- data context -->
                     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                    <?php
+                    if ( has_post_thumbnail() ) {
+                        $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),’thumbnail’ );
+                        echo '<img width="100%" src="' . $image_src[0] . '">'; //ideal image width is 627; scale accordingly
+                    } ?>
                     <?php the_excerpt(); ?>
                     <p class="readmore"><a href="<?php the_permalink(); ?>">Read More</a></p>
                 <?php endwhile; ?> <!-- End Loop -->
