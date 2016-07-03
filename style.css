@@ -32,11 +32,11 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-h1, h2, h3, p, a, ul, li {
+h1, h2, h3, h4, p, a, ul, li {
     color: #888;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,7 +45,7 @@ h1 {
     font-size: 1.8rem;
 }
 
-h2, h3 {
+h2, h3, h4 {
     letter-spacing: 1.2px;
 }
 
@@ -55,6 +55,10 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
 }
 
 a {
@@ -369,3 +373,23 @@ footer a:hover {
     background-color: transparent;
     visibility: hidden;
 }
+
+/*------------------------------------------------------ Résumé Page ---
+
+To be explored later on
+
+.resume h1, .resume h2, .resume h3, .resume h4 {
+
+}
+
+.resume h1 {
+    margin-bottom: 40px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 4px;
+}
+
+.resume h2, .resume h3, .resume h4 {
+    color: orange;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}*/
