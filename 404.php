@@ -7,7 +7,7 @@ get_header(); ?>
         <div class="eight columns">
             <h1 id="error">404</h1>
             <img id="sadpanda" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
-            <h2 id="errorh2">The page you're looking for does't exist :(</h2>
+            <h2 id="errorh2">The page you're looking for doesn't exist :(</h2>
         </div>
 
         <div class="one column" id="blank">blank</div>
