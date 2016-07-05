@@ -21,6 +21,20 @@
                 } //END IF ?>
                 <p>Posted on: <span style="color:orange;"><?php the_time('F j, Y'); ?></span></p>
             <!-- END PAGE PHP -->
+            <div id="prevnext" >
+                <div id="newpost">
+                    <?php next_post_link('
+                    	<h3>%link</h3>
+                    	', 'Newer Post', false);
+                    ?>
+                </div>
+                <div id="oldpost">
+                    <?php previous_post_link('
+                    <h3>%link</h3>
+                    ', 'Older Post', false);
+                    ?>
+                </div>
+            </div>
         </div>
 
         <div class="one column" id="blank">blank</div>

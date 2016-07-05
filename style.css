@@ -80,7 +80,7 @@ p {
     letter-spacing: .5px;
 }
 
-/*------------------------------------------------------ Header Elements ---*/
+/*--------------------------------------------------------------- Header Elements ---*/
 
 header h1, header p{
     letter-spacing: .6px;
@@ -98,7 +98,7 @@ header img {
     margin: 0 auto;
 }
 
-/*------------------------------------------------------ Banner Elements ---*/
+/*--------------------------------------------------------------- Banner Elements ---*/
 
 .bannerimage {
     margin: 0 auto;
@@ -127,7 +127,7 @@ header img {
     padding-bottom: 5px;
 }
 
-/*------------------------------------------------------ Menu & Read More --- */
+/*--------------------------------------------------------------- Menu & Read More --- */
 
 .blank-menu-header {
     text-align: center;
@@ -160,7 +160,7 @@ header img {
     border-bottom: 2px solid orange;
 }
 
-/*------------------------------------------------------ Footer Elements ---*/
+/*--------------------------------------------------------------- Footer Elements ---*/
 
 footer {
     border-top: 2px solid orange;
@@ -201,8 +201,6 @@ footer a:hover {
     border-bottom: 2px solid orange;
 }
 
-
-
 /*footer a:hover {
     color: #cccccc;
     padding-bottom: 2px;
@@ -227,13 +225,12 @@ footer a:hover {
     letter-spacing: .8px;
 }
 
-/*------------------------------------------------------ Social Div ---*/
+/*--------------------------------------------------------------- Social Div ---*/
 
 #social {
     margin-top: 8px;
     margin-bottom: 20px;
 }
-
 
 #social ul {
     margin: 0;
@@ -259,7 +256,7 @@ footer a:hover {
     width: 38px;
 }
 
-/*------------------------------------------------------ 404 Page ---*/
+/*--------------------------------------------------------------- 404 Page ---*/
 
 #error {
     font-size: 10rem;
@@ -282,7 +279,7 @@ footer a:hover {
     margin-right: auto;
 }
 
-/*------------------------------------------------------ Portfolio Page ---*/
+/*--------------------------------------------------------------- Portfolio Page ---*/
 
 #portfoliopage {
     margin-bottom: 20px;
@@ -304,7 +301,7 @@ footer a:hover {
     text-align: justify;
 }
 
-/*------------------------------------------------------ Contact Page ---*/
+/*--------------------------------------------------------------- Contact Page ---*/
 
 #contactpage h2 {
     margin-bottom: 15px;
@@ -359,20 +356,38 @@ footer a:hover {
     border: 1px solid orange;
 }
 
-/*------------------------------------------------------ Hide Search Box Label ---*/
+/*--------------------------------------------------------------- Hide Search Box Label ---*/
 
 .screen-reader-text {
     visibility: hidden;
 }
 
-/*------------------------------------------------------ Blank Div For Separation ---*/
+/*--------------------------------------------------------------- Blank Div For Separation ---*/
 
 #blank {
     background-color: transparent;
     visibility: hidden;
 }
 
-/*------------------------------------------------------ Résumé Page ---
+/*--------------------------------------------------------------- Next/Prev Links ---*/
+
+#prevnext ul {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#newpost {
+    float: left;
+    text-align: left;
+}
+
+#oldpost {
+    float: right;
+    text-align: right;
+}
+
+/*--------------------------------------------------------------- Résumé Page ---
 
 To be explored later on
 
