@@ -162,13 +162,13 @@ header img {
 
 /*--------------------------------------------------------------- Next/Prev Links ---*/
 
-#newpost {
-    float: left;
+#nextpost {
+    float: right;
     text-align: left;
 }
 
-#oldpost {
-    float: right;
+#prevpost {
+    float: left;
     text-align: right;
 }
 
