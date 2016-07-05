@@ -24,13 +24,13 @@
             <div id="prevnext" >
                 <div id="newpost">
                     <?php next_post_link('
-                    	<h3>%link</h3>
+                    	<h4>%link</h4>
                     	', 'Newer Post', false);
                     ?>
                 </div>
                 <div id="oldpost">
                     <?php previous_post_link('
-                    <h3>%link</h3>
+                    <h4>%link</h4>
                     ', 'Older Post', false);
                     ?>
                 </div>

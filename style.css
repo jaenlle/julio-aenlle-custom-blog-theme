@@ -160,6 +160,18 @@ header img {
     border-bottom: 2px solid orange;
 }
 
+/*--------------------------------------------------------------- Next/Prev Links ---*/
+
+#newpost {
+    float: left;
+    text-align: left;
+}
+
+#oldpost {
+    float: right;
+    text-align: right;
+}
+
 /*--------------------------------------------------------------- Footer Elements ---*/
 
 footer {
@@ -367,24 +379,6 @@ footer a:hover {
 #blank {
     background-color: transparent;
     visibility: hidden;
-}
-
-/*--------------------------------------------------------------- Next/Prev Links ---*/
-
-#prevnext ul {
-    text-align: center;
-    display: block;
-    margin: auto;
-}
-
-#newpost {
-    float: left;
-    text-align: left;
-}
-
-#oldpost {
-    float: right;
-    text-align: right;
 }
 
 /*--------------------------------------------------------------- Résumé Page ---
