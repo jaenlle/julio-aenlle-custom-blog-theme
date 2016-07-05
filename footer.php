@@ -9,11 +9,6 @@
                                 <li><a href="mailto:julioaenlle@gmail.com">EMAIL ME</a></li>
                             </ul>
                         </div>
-
-                        <!--<?php wp_nav_menu( array(
-                                'sort_column'     =>  'menu_order',
-                                'container_class' =>  'blank-menu-header'
-                            )); ?>-->
                     </div>
                 </div>
 
